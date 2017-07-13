@@ -17,6 +17,7 @@ h1 {
 }
 
 h2 {
+	width: 33%; /* Will be overridden for Sushi on tablet */
 	text-align: center;
 	font-size: 125%;
 	position: absolute;
@@ -54,10 +55,6 @@ div.inner {
 
 div.ld-2, div.md-3, div.md-6, div.sd-6 {
 	float: left;
-}
-
-h2 {
-	width: 33%;
 }
 
 @media (min-width: 992px) {
